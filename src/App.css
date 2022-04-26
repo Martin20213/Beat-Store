@@ -1,0 +1,397 @@
+
+.navbari{
+ 
+  display: flex;
+
+}
+.cart {
+  height:50px;
+  width:50px;
+}
+#beatgenresdiv{
+	padding: 10px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.beatgenres{
+	background-color: rgba(0, 0, 0, 0.123);
+	align-items: center;
+	border-radius: 4px;
+
+	
+}
+
+#Contactcucc{
+
+	padding-top: 200px;
+	
+	width:130px;
+	margin: 0 auto;
+	color: rgb(0, 0, 0);
+
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+
+#Emailc{
+
+	color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#servicepictures{
+
+	width: 300px;
+	height: 200px;
+
+}
+.parentthing{
+	padding: 5px;
+	
+}
+.parent{
+
+
+	border-radius: 10px;
+	
+	color: white;
+
+	padding: 20px;
+
+}
+
+.beattable{
+
+	background-color: rgba(0, 0, 0, 0.274);
+
+	border-radius: 10px;
+	
+	color: white;
+
+	margin: 0 auto;
+
+
+
+}
+
+
+#name{
+
+	padding: 10px;
+	
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+th{
+	justify-content: letter-spacing;
+	padding: 40px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+td{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul{
+  padding: 20px;
+  margin-left: 20px;
+}
+
+img{
+  width: 200px;
+  height: 100px;
+
+}
+
+.home{
+	background-image: url(homebackground.png);
+	margin: auto;
+	height: 100vh;
+	width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#centerh1{
+
+
+	text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 200px;
+	
+}
+#homelast{
+	background-color: #000;
+}
+#parah{
+
+
+	font-size:60px;
+	color: black;
+	border-radius:4px;
+	text-shadow: 2px 2px rgb(255, 255, 255);
+	margin: auto ;
+
+}
+
+.bg{
+	
+	
+
+	margin: auto;
+    height: 100vh;
+	width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.bgimage{
+
+height: 100vh;
+width: 100%;
+
+
+  }
+
+
+.App {
+
+  text-align: center;
+
+  margin:auto;
+  background-image: linear-gradient(to bottom ,rgb(248, 248, 248),#af1818);
+  background-repeat: no-repeat;
+  
+}
+
+#keppad{
+  padding-left: 20px;
+}
+
+
+#buttoneffect{
+
+border: 2px solid #af1818;
+margin: 10px;
+display: inline-block;
+text-decoration: none;
+color: #af1818;
+letter-spacing: 2px;
+transition: 0.5s;
+
+
+  
+}
+
+
+#buttoneffect:active{
+
+  background-color: #af1818;
+  color:rgb(255, 255, 255);
+}
+
+#buttoneffect:hover{
+  color:rgb(255, 255, 255);
+  background-color: #af1818;
+  border-radius: 5px;
+
+}
+
+
+#buttoneffect2{
+
+  border: 2px solid #ffffff;
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #af1818;
+  color: #ffffff;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  
+  
+    
+  }
+  #buttoneffect2:hover{
+
+    border: 2px solid #af1818;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #af1818;
+    background-color: #ffffff;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    
+    
+      
+    }
+
+
+.jobbdiv{
+
+  float: right;
+  
+ vertical-align: baseline;
+
+}
+
+li{
+  
+  list-style: none;
+  
+  
+}
+
+/*----------------------------------PRICING CSS-------------------*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	box-sizing: border-box;
+}
+
+.strong{
+ 
+ font-weight: bold;
+
+}
+
+body {
+	background-color: #f6f5f7;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 50px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.pricing-box-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#pricefontwhite{
+  color: white;
+}
+.pricing-box {
+	background-color: #ffffff;
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	border-radius: 4px;
+	flex: 1;
+	padding: 0 30px 30px;
+	margin: 2%;
+	min-width: 250px;
+	max-width: 350px;
+}
+
+.pricing-box h5 {
+	text-transform: uppercase;
+  
+}
+
+.price {
+	margin: 24px 0;
+	font-size: 36px;
+	font-weight: 900;
+  color:rgb(46, 46, 46);
+}
+.shadow{
+  text-shadow: 0 2px 3px rgb(29, 29, 29);
+  background-color: rgba(0, 0, 0, 0.076);
+}
+
+.price sub, .price sup {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.features-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.features-list li {
+	font-weight: 100;
+	padding: 12px 0;
+	font-weight: 100;
+ 
+}
+
+.features-list li:not(:last-of-type) {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+	border-radius: 25px;
+	border: none;
+	background-color: #af1818;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 15px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.863);
+	transform: translateY(-3px);
+}
+
+.pricing-box-bg-image {
+	background-image: url('../src/premium2.png');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+}
+
+.pricing-box-bg-image .features-list li {
+	border-bottom-color: rgba(255, 255, 255, 1);
+}
+
+.pricing-box-bg-image .btn-primary {
+	background-color: #ffffff;
+	color: #000;
+}
+
+footer {
+	background-color: #222;
+	color: #fff;
+	font-size: 14px;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+footer p {
+	margin: 10px 0;
+}
+
+footer i {
+	color: red;
+}
+
+footer a {
+	color: #3C97BF;
+	text-decoration: none;
+}
+
+.servicetable{
+
+	margin: 0px auto;
+	
+
+}
+

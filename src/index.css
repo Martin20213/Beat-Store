@@ -1,0 +1,190 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat,sans-serif;
+}
+
+.homebg{
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).webp");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2{
+  background-color: rgba(248, 248, 248, 0.877);
+  
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input{
+appearance: none;
+background: none;
+border: none;
+outline: none;
+color: #af1818;
+
+}
+body,html{
+
+    height: 100%;
+
+}
+
+
+button{
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  color: #af1818;
+  font-weight: bold;
+}
+
+p{
+  color: white;
+}
+
+form{
+  display: block;
+  position: relative;
+}
+form:after{
+  content:'';
+  display:block;
+  position:absolute; 
+  top:-5px;
+  left:-5px;
+  right:-5px;
+  bottom:-5px;
+  z-index: 1;
+
+
+}
+
+/*-------------------------------------------animation*/
+
+form .form-inner{
+
+position: relative;
+display: inline-block;
+
+animation-name: szines;
+animation-duration: 5s;
+animation-iteration-count:infinite ;
+
+
+background-color: white;
+padding:30px;
+z-index:2;
+border: solid 2px white;
+border-radius:8px;
+background-image: linear-gradient(to bottom ,rgb(224, 224, 224),#ff4a4ac5);
+}
+
+@keyframes szines {
+  0%{background-color: rgba(199, 199, 199, 0.5);}
+  50%{background-color: rgb(41, 41, 41,0.5);}
+  100%{background-color: rgb(199, 199, 199,0.5);}
+}
+/*-------------------------------------------animation vege*/
+
+form .form-inner-h2{
+
+  color:#888;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+
+}
+
+form .form-inner .form-group{
+
+  display: block;
+  width: 300px;
+  margin-bottom:15px;
+
+}
+
+.form-inner .form-group label{
+
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+
+  margin-bottom:5px ;
+  transition: 0.4s;
+
+}
+
+.form-inner .form-group:focus-within label{
+  color:#af1818;
+}
+
+form .form-inner .form-group input{
+
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  border-radius:8px;
+  transition: 0.4s;
+
+}
+form .form-inner .form-group input:focus{
+
+box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+form .form-inner input[type="submit"], .Welcome button{
+
+
+display: inline-block;
+padding: 10px 15px;
+border-radius:8px;
+background-image: linear-gradient(to right,#af1818 50%,#af1818 50% ,rgb(248, 248, 248));
+background-size: 200%;
+background-position: 0%;
+transition: 0.4s;
+color: #fff;
+font-weight: 700;
+cursor: pointer;
+
+
+}
+
+form .form-inner input[type="submit"]:hover,.Welcome button:hover{
+  
+  background-position: 100% 0%;
+  
+}
+
+.Welcome{
+  margin: 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius:10px;
+  width: 100%;
+  max-width:480px;
+  background-color: #fff;
+  padding:15px 30px;
+}
+
+.Welcome h2{
+  
+  color: #888;
+  font-size:28px;
+  font-weight:500;
+  margin-bottom: 30px;
+}
+
+.Welcome h2 span{
+  color: #af1818;
+  font-weight:700;
+}
